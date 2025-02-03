@@ -1,0 +1,67 @@
+body{
+    padding:2rem;
+    background-color: #4b2a1f;
+}
+img{
+    height:12rem;
+    width:12rem;
+    object-fit: cover; 
+    /* height width change karne pe img distort na ho uske liye */
+    border-radius:50%;
+    /*Isse circle me convert hojayegi*/
+}
+.choice{
+    height:13rem;
+    width:13rem;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choice:hover{
+    /* opacity:50%; */
+    cursor:pointer;
+    background-color: rgb(35, 205, 69);
+}
+.choices{
+    margin-top:1.75rem;
+    display:flex;
+    gap:2rem;
+    width:90vw;
+    justify-content: center;
+}
+h1{
+    background-color: #a2d730;
+    color:#0d0300;
+    text-align: center;
+    height:3rem;
+    width:28rem;
+    line-height:3rem;
+}
+.heading{
+    display:flex;
+    justify-content: center;
+}
+.score{
+    display:flex;
+    justify-content: center;
+    gap:5rem;
+}
+.user,.computer{
+    color:#2acd45;
+    font-size: 2rem;
+    height:11rem;
+    width:15rem;
+    text-align:center;
+    margin-top:0.5rem;
+    
+}
+#user-score,#computer-score{
+    font-size:3rem;
+}
+.msg-container{
+    margin-top:4rem;
+    text-align:center;
+    font-size: 2.5rem;
+    color:beige
+}
